@@ -11,7 +11,7 @@ script_dir="$( cd "$( dirname "$0" )" && pwd )"
 
 function main() {
     git clone --depth 1  --branch "vertical-pod-autoscaler-${version}" "$upstream" "$tmp"
-    rm -rf  "$script_dir/../helm/vertical-pod-autoscaler-crd/templates/"
+    rm -rf  "$script_dir/../helm/vertical-pod-autoscaler-crd/templates/*.yaml"
     cp -rf "$tmp/charts/vertical-pod-autoscaler/files/crds/" "$script_dir/../helm/vertical-pod-autoscaler-crd/templates/"
 }
 
