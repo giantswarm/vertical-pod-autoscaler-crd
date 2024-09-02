@@ -7,7 +7,13 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Chart: Improve `Chart.yaml`. ([#110](https://github.com/giantswarm/vertical-pod-autoscaler-crd/pull/110))
+
 ## [3.1.0] - 2024-04-11
+
+### Changed
 
 - Chart: Sync CRDs to VPA v1.1.0. ([#93](https://github.com/giantswarm/vertical-pod-autoscaler-crd/pull/93))
 
