@@ -1,0 +1,13 @@
+apiVersion: vendir.k14s.io/v1alpha1
+kind: Config
+directories:
+- path: helm/vertical-pod-autoscaler-crd/templates
+  contents:
+  - path: .
+    git:
+      url: https://github.com/cowboysysop/charts
+      ref: master
+      depth: 1
+    newRootPath: charts/vertical-pod-autoscaler/files/crds
+    ignorePaths:
+    - _helpers.tpl

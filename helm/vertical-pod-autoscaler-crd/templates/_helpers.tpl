@@ -17,12 +17,12 @@ Create chart name and version as used by the chart label.
 Common labels
 */}}
 {{- define "vertical-pod-autoscaler.labels" -}}
-application.giantswarm.io/team: {{ index .Chart.Annotations "application.giantswarm.io/team" | default "atlas" | quote }}
 {{ include "vertical-pod-autoscaler.selectorLabels" . }}
-app.kubernetes.io/managed-by: {{ .Release.Service }}
 app.kubernetes.io/version: {{ .Chart.AppVersion | quote }}
-giantswarm.io/service-type: "managed"
+app.kubernetes.io/managed-by: {{ .Release.Service }}
 helm.sh/chart: {{ include "vertical-pod-autoscaler.chart" . }}
+giantswarm.io/service-type: managed
+application.giantswarm.io/team: {{ index .Chart.Annotations "application.giantswarm.io/team" | default "turtles" | quote }}
 {{- end -}}
 
 {{/*
