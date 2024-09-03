@@ -1,5 +1,5 @@
+chart-dir: helm/vertical-pod-autoscaler-crd
 replace-chart-version-with-git: true
 generate-metadata: true
-chart-dir: ./helm/{APP-NAME}
-destination: ./build
+catalog-base-url: https://giantswarm.github.io/giantswarm-catalog/
 disable-giantswarm-helm-validator: true
