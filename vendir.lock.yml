@@ -2,8 +2,10 @@ apiVersion: vendir.k14s.io/v1alpha1
 directories:
 - contents:
   - git:
-      commitTitle: 'ci: update helm/chart-releaser-action action to v1.7.0 (#819)...'
-      sha: bfea9fb02a82f20b0c8e4c67d1ac4a0da4829f38
+      commitTitle: 'fix: update registry.k8s.io/autoscaling/vpa to v1.3.1 (#885)...'
+      sha: 618b773dce95619be9f68dfeceb46ebfe647634b
+      tags:
+      - vertical-pod-autoscaler-10.0.1
     path: .
   path: helm/vertical-pod-autoscaler-crd/templates
 kind: LockConfig
