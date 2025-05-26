@@ -6,7 +6,7 @@ directories:
   - path: .
     git:
       url: https://github.com/cowboysysop/charts
-      ref: master
+      ref: vertical-pod-autoscaler-10.2.0
       depth: 1
     newRootPath: charts/vertical-pod-autoscaler/files/crds
     ignorePaths:
