@@ -2,10 +2,10 @@ apiVersion: vendir.k14s.io/v1alpha1
 directories:
 - contents:
   - git:
-      commitTitle: 'fix: update registry.k8s.io/autoscaling/vpa to v1.3.1 (#885)...'
-      sha: 618b773dce95619be9f68dfeceb46ebfe647634b
+      commitTitle: 'feat: update registry.k8s.io/autoscaling/vpa to v1.4.0 (#906)...'
+      sha: 2560d106dd4bb99e3c77a83ad01369b201c7142d
       tags:
-      - vertical-pod-autoscaler-10.0.1
+      - vertical-pod-autoscaler-10.2.0
     path: .
   path: helm/vertical-pod-autoscaler-crd/templates
 kind: LockConfig
