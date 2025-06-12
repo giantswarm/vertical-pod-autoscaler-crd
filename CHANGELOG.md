@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+### Changed
+
+- Chart: Sync to upstream. ([#146](https://github.com/giantswarm/vertical-pod-autoscaler-crd/pull/146))
+
 ## [3.3.0] - 2025-05-26
 
 ### Changed
