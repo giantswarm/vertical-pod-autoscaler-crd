@@ -2,10 +2,11 @@ apiVersion: vendir.k14s.io/v1alpha1
 directories:
 - contents:
   - git:
-      commitTitle: 'fix: update registry.k8s.io/autoscaling/vpa to v1.4.1 (#921)...'
-      sha: 34da17b0f40b42389c6eb20bb354cbfdaf5c0921
+      commitTitle: 'feat(vertical-pod-autoscaler)!: use forked versions of the Bitnami
+        charts (#978)'
+      sha: c6cf347fcb88a4eba1a351f88ef4e873a24cb122
       tags:
-      - vertical-pod-autoscaler-10.2.1
+      - vertical-pod-autoscaler-11.0.0
     path: .
   path: helm/vertical-pod-autoscaler-crd/templates
 kind: LockConfig
