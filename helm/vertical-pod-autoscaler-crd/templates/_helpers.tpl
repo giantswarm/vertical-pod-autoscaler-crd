@@ -16,8 +16,8 @@ Create chart name and version as used by the chart label.
 {{/*
 Common labels
 */}}
-{{- define "vertical-pod-autoscaler.labels" -}}
-{{ include "vertical-pod-autoscaler.selectorLabels" . }}
+{{- define "vertical-pod-autoscaler.commonLabels" -}}
+{{ include "vertical-pod-autoscaler.commonSelectorLabels" . }}
 app.kubernetes.io/version: {{ .Chart.AppVersion | quote }}
 app.kubernetes.io/managed-by: {{ .Release.Service }}
 helm.sh/chart: {{ include "vertical-pod-autoscaler.chart" . }}
@@ -28,7 +28,7 @@ application.giantswarm.io/team: {{ index .Chart.Annotations "application.giantsw
 {{/*
 Selector labels
 */}}
-{{- define "vertical-pod-autoscaler.selectorLabels" -}}
+{{- define "vertical-pod-autoscaler.commonSelectorLabels" -}}
 app.kubernetes.io/name: {{ include "vertical-pod-autoscaler.name" . }}
 app.kubernetes.io/instance: {{ .Release.Name }}
 {{- end -}}
