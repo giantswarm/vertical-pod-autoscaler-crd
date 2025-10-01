@@ -7,6 +7,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [4.1.0] - 2025-10-01
+
 ### Changed
 
 - Chart: Sync to upstream. ([#164](https://github.com/giantswarm/vertical-pod-autoscaler-crd/pull/164))
@@ -104,7 +106,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 - Added VerticalPodAutoscaler CRD from https://github.com/FairwindsOps/charts/tree/fb2ccec4228c26e366bd1ac96aade056f3db0151/stable/vpa/crds
 
-[Unreleased]: https://github.com/giantswarm/vertical-pod-autoscaler-crd/compare/v4.0.1...HEAD
+[Unreleased]: https://github.com/giantswarm/vertical-pod-autoscaler-crd/compare/v4.1.0...HEAD
+[4.1.0]: https://github.com/giantswarm/vertical-pod-autoscaler-crd/compare/v4.0.1...v4.1.0
 [4.0.1]: https://github.com/giantswarm/vertical-pod-autoscaler-crd/compare/v4.0.0...v4.0.1
 [4.0.0]: https://github.com/giantswarm/vertical-pod-autoscaler-crd/compare/v3.3.1...v4.0.0
 [3.3.1]: https://github.com/giantswarm/vertical-pod-autoscaler-crd/compare/v3.3.0...v3.3.1
