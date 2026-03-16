@@ -8,5 +8,3 @@ icon: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
 annotations:
   application.giantswarm.io/team: turtles
   ui.giantswarm.io/logo: https://s.giantswarm.io/app-icons/k8s-initiator/1/dark.svg
-restrictions:
-  clusterSingleton: true
